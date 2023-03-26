@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Camera Capture</title>
+	<style>
+		body {
+			background-image: url("/templates/arteum-ro-7H41oiADqqg-unsplash.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		h1 {
+			color: #000;
+			font-family: Arial, sans-serif;
+			text-align: center;
+			text-shadow: 2px 2px #fff;
+		}
+
+		
+		button {
+			background-color: #9c27b0;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			cursor: pointer;
+			display: block;
+			font-family: Arial, sans-serif;
+			font-size: 18px;
+			margin: 20px auto;
+			padding: 10px;
+			text-align: center;
+			text-shadow: 1px 1px #000;
+			transition: background-color 0.2s;
+			width: 200px;
+		}
+		
+		button:hover {
+			background-color: #673ab7;
+		}
+	</style>
+</head>
+<body>
+	<h1>Choose Input Method</h1>
+	
+	<!-- Buttons to choose between camera input and file upload -->
+	<button onclick="location.href='/camera'">Camera Input</button>
+	<button onclick="location.href='/upload'">File Upload</button>
+	
+</body>
+</html>

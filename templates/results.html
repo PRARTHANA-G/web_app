@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Results</title>
+    <style>
+      body {
+        background-image: url('templates/nathan-defiesta-RdaKT5RtUk8-unsplash.jpg'); 
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
+        font-size: 48px;
+        margin-top: 50px;
+        text-shadow: 2px 2px #000;
+        color: #888;
+      }
+      p {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 30px;
+        color: #888;
+      }
+
+      img {
+        display: block;
+        margin: 50px auto;
+        box-shadow: 2px 2px 2px #000;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Results</h1>
+    <p>Conclusion: {{ conclusion }}</p>
+    <p>Grade Result: {{ grade_res }}</p>
+    <img src="data:image/png;base64,{{ img_data }}" alt="Processed Image" height="400" width="500">
+  </body>
+</html>
